@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/TASK 3/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/TASK 3/img/ns.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/TASK 3/img/ns.png">
+  <link rel="manifest" href="/TASK 3/img/site.webmanifest">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="box">
+    <h1>Temperature Converter</h1>
+
+    <div class="container">
+
+      <label for="temperature">Enter temperature:</label>
+      <input type="text" id="temperature" name="temperature" placeholder="e.g. 25" required>
+      <select id="from_unit" name="from_unit">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+
+      <span>to</span>
+
+      <select id="to_unit" name="to_unit">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+      <button id="convert-btn">Convert</button>
+    </div>
+
+    <div class="result-container">
+      <h2>Result :-</h2>
+      <p id="result"></p>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <p>copyright &copy;2023 designed by <span>NITIN SHARMA</span></p>
+    </div>
+  </footer>
+
+  <script src="temp.js"></script>
+
+</body>
+
+</html>
