@@ -8,7 +8,7 @@
 body {
   width: 100%;
   height: 100vh;
-  background:  linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)), url('/TASK 3/img/bg.jpg');
+  background:  linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)), url('./img/bg.jpg');
   background-size: cover;
 }
 
